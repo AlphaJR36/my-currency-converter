@@ -1,5 +1,5 @@
 {
-  "name": "currency-converter",
+  "name": "my-currency-converter",
   "version": "1.0.0",
   "description": "Efficient npm package for currency conversion in Node.js. Utilize real-time exchange rates, ensuring accurate. Enhance your app with reliable currency conversion functionality.",
   "keywords": [
@@ -14,7 +14,7 @@
   },
   "author": "AlphaJR36 <alphajrdev@gmail.com>",
   "publisher": "AlphaJR36 <alphajrdev@gmail.com>",
-  "displayName": "currency-converter",
+  "displayName": "my-currency-converterr",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
