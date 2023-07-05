@@ -6,12 +6,17 @@
     "conversor",
     "money",
     "currency",
-    "currency-converter",
-    "@alphajrdev/convert-money"
+    "currency-converter"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlphaJR36/currency-converter.git"
+  },
+  "author": "AlphaJR36 <alphajrdev@gmail.com>",
+  "publisher": "AlphaJR36 <alphajrdev@gmail.com>",
+  "displayName": "currency-converter",
   "main": "index.js",
   "license": "MIT",
-  "author": "AlphaJR36 <alphajrdev@gmail.com>",
   "scripts": {
     "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
     "start": "yarn build && ts-node dist/index.js"
