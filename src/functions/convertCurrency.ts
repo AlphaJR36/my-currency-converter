@@ -22,12 +22,3 @@ export function convertCurrency(value: number, currencyTo: string): Promise<numb
       .catch((error: Error) => reject(error));
   });
 }
-
-// Exemplo de uso:
-convertCurrency(100, 'EUR')
-  .then((convertedValue) => {
-    console.log('Valor convertido:', convertedValue);
-  })
-  .catch((error) => {
-    console.error('Erro durante a conversão:', error);
-  });
